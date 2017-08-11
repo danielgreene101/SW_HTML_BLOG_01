@@ -1,0 +1,53 @@
+/*********NAV BAR*************/
+#navBar {
+    display: inline-flex;
+    padding: 0%;
+    width: 100%;
+    background-color: aquamarine;
+}
+
+#navBar ul li {
+    list-style: none;
+    float: left;
+    display: inline-flex;
+    padding: 10px;
+}
+
+/*********BLOG CONTENT********/
+.blogListView{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.blogListView ul li {
+    list-style: none;
+}
+
+.blogListViewHidden {
+    display: none;
+}
+
+
+/***********ADD BLOG ENTRY************/
+.addBlogEntry {
+    display: none;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    width: 100%;
+    flex-wrap: nowrap;
+    margin-right: 50px;
+}
+
+#add{
+    align-items: center;
+    flex-wrap: wrap;
+    width: auto;
+}
+
+/**********Delete Button************/
+#delete{
+    flex-wrap: wrap;
+    width: 7%;
+}
